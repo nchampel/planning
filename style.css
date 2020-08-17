@@ -1,0 +1,22 @@
+th {
+    font-weight: bold;
+}
+table {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+}
+thead tr:first-child {
+    background-color: grey;
+}
+tbody tr:nth-child(odd)>td { background-color:rgb(91, 196, 204); } /*couleur des lignes pair*/
+tbody tr:nth-child(even)>td { background-color:rgb(119, 238, 95); } /*couleur des lignes impair*/
+tbody tr td:first-child {
+    background-color: grey;
+}
+tfoot tr td {
+    font-style: italic;
+}
